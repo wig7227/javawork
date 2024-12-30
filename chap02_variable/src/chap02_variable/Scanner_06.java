@@ -41,7 +41,7 @@ public class Scanner_06 {
 					   //		charAt(1) = b
 		System.out.println("성의 이니셜은 : " + initial);
 		*/
-		
+		/* 
 		System.out.println("정수 3개 입력(띄어쓰기로) >> ");
 		int num1 = scan.nextInt();
 		int num2 = scan.nextInt();
@@ -49,7 +49,7 @@ public class Scanner_06 {
 		System.out.println("첫번째 숫자 : " + num1);//sysout 엔터
 		System.out.println("두번째 숫자 : " + num2);
 		System.out.println("세번째 숫자 : " + num3);
-		
+		*/
 		// 레포트
 		/*
 		 * 1. 사용자로 부터 2수를 입력받아
@@ -67,7 +67,50 @@ public class Scanner_06 {
 		 *  	7*5 = 35
 		 * 
 		 */
-		
-		
+		System.out.print("정수 2개 입력(띄어쓰기로 구분) >> ");
+        int num1 = scan.nextInt();
+        int num2 = scan.nextInt();
+        
+        System.out.println(num1 + "+" + num2 + " = " + (num1 + num2));
+        System.out.println(num1 + "-" + num2 + " = " + (num1 - num2));
+        System.out.println(num1 + "*" + num2 + " = " + num1 * num2);
+        System.out.println(num1 + "/" + num2 + " = " + num1 / num2);
+        
+        System.out.println("연산자를 입력하세요 : ");
+        //String op = scan.next(); (둘중 하나 쓰기)
+        char op = scan.next().charAt(0);
+        
+        System.out.println(num1 + op + num2 + "=" + (num1+op+num2));
+        if(op == '+')
+        	System.out.println(num1 + "+" + num2 + "=" + (num1+num2));
+        else if(op == '-')
+        	System.out.println(num1 + "-" + num2 + "=" + (num1-num2));
+        else if(op == '*')
+        	System.out.println(num1 + "*" + num2 + "=" + (num1*num2));
+        else if(op == '/')
+        	System.out.println(num1 + "/" + num2 + "=" + (num1/num2));
+			
+        
+        /*
+        int result = 0;
+        switch(op) {
+            case "+":
+                result = num1 + num2;
+                break;
+            case "-":
+                result = num1 - num2;
+                break;
+            case "*":
+                result = num1 * num2;
+                break;
+            case "/":
+                result = num1 / num2;
+                break;
+        }
+        
+        System.out.println(num1 + operator + num2 + " = " + result);
+        
+        scan.close();
+		*/
 	}
 }
