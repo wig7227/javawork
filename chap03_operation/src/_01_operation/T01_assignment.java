@@ -27,6 +27,7 @@ public class T01_assignment {
 		int num2 = 300_000_000; // 큰 숫자는 사람이 보기 편하게 언더바를 해준다
 		System.out.println(num2);
 		
+		
 	}
 
 }

@@ -7,7 +7,7 @@ public class Fommat_07 {
 		// java에서 실수형은 doubla이 기본자료형
 		// 실수형 숫자를 그냥 쓰면 double형으로 인식 (float을 쓸때 0.10을 넣으면 8byte를 4byte에 넣으라고 해서 오류가 뜸)
 		float f1 = .10f;
-		double d1 = 1234523.123456789345;
+		double d1 = 123452344444.123456789345;
 		System.out.printf("%d, %d, %d\n", 10, 5, 1);
 		System.out.printf("%f\n", 1.23456789);
 		System.out.printf("%f\n", f1);

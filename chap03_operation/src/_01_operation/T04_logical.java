@@ -14,6 +14,7 @@ public class T04_logical {
 		 1	0		0			1
 		 1	1		1			1
 		 */
+		
 		/*
 		int num1 = 10;
 		int num2 = 20;
@@ -74,6 +75,8 @@ public class T04_logical {
 		System.out.println("키를 입력하세요 : ");
 		Double heg= sc.nextDouble();
 		System.out.println("키 : " + heg);
+		
+		System.out.println("키" + heg + "cm인" + age + "살" + sex + " " + name + "님 반갑습니다^^");
 		
 		
 		/*
@@ -140,16 +143,17 @@ public class T04_logical {
 		Scanner sc4 = new Scanner(System.in);
 		
 		System.out.println("문자열을 입력하세요 : ");
-		char ch4 = sc.next().charAt(0);
+		String str = sc4.next();
 		
+		char first = str.charAt(0);
+		char second = str.charAt(1);
+		char third = str.charAt(2);
 		
-		System.out.println("첫번째 문자 : " );
+		System.out.println("첫번째 문자 : " + first);
 		
+		System.out.println("두번째 문자 : " + second);
 		
-		
-		
-		
-		
+		System.out.println("세번째 문자 : " + third);
 		
 		
 		

@@ -12,14 +12,13 @@ public class Casting_02 {
 		
 		// java에서 정수의 기본자료형 int 
 		long long1 = 345611117111132213L;
-		float flo2 = long1;
+		float flo2 = long1;	//자동형변환
 		
-		// 65535
+		//char : 0~65535
 		int num2 = 50896;
 		char ch1 = (char)num2;
 		System.out.println(ch1);
 		
-	
 	}
 
 }
