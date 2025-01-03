@@ -40,10 +40,10 @@ public class T04_do_while {
 			}
 			
 		} while(result != 0);
-		if(result == 0) {
-			System.out.println("프로그램 종료");
-		}
+
+			
 		
+		System.out.println("프로그램 종료");
 	}
 
 }

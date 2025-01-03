@@ -62,9 +62,9 @@ public class T03_while {
 			System.out.print("문자1개 입력(멈추려면 'q'입력) : ");
 			char ch = sc.next().charAt(0);
 			
-			if(ch == 'q')
+			if(ch == 'q') {
 				break; // 반복문을 끝낸다
-			
+			}
 			System.out.println(ch);
 		}
 		System.out.println("프로그램 종료");

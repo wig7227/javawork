@@ -27,8 +27,7 @@ public class T02_중첩for {
 			}
 			System.out.println();
 		}
-		
-		
+			
 	}
 
 }
