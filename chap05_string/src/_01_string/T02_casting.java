@@ -25,5 +25,4 @@ public class T02_casting {
 		System.out.println(str2 + num2);
 		System.out.println(str3 + dou2);
 	}
-
 }
