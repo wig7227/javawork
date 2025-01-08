@@ -12,7 +12,15 @@ public class Phone_main {
 		sp.receveVoice("네 맞습니다");
 		sp.hang();
 		sp.search("자바 검색");
-
+		
+		SmartPhone sp1 = new SmartPhone("삼성","검정");
+		
+		System.out.println(sp1.model);
+		
+		SmartPhone sp2 = new SmartPhone("dd");
+		
+		System.out.println(sp2.model);
+		System.out.println(sp2.color);
 	}
 
 }
