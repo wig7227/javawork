@@ -8,14 +8,14 @@ public class Bank {
 	private int bal;
 	
 	
-	void printIn(int MoneyIn) {
+	public void printIn(int MoneyIn) {
 		System.out.println(MoneyIn + "원 입급 완료 헀습니다");
 		
 		bal += MoneyIn;
 		System.out.println("잔액 " + bal);
 	}
 	
-	void printOut(int MoneyOut) {
+	public void printOut(int MoneyOut) {
 		
 		bal -= MoneyOut;
 		
@@ -26,7 +26,7 @@ public class Bank {
 			System.out.println("잔액이 부족합니다");
 		}
 	}
-	int bal() {
+	public int bal() {
 		return bal;
 	}
 	

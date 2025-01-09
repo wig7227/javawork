@@ -14,13 +14,13 @@ public class Product_main extends Product{
 		int random3 = (int)(Math.random() * 10000);
 		int random4 = (int)(Math.random() * 10000);*/
 		
-		p1.Product(12345);
-		p2.Product(13579);
-		p3.Product(22222);
-		p3.Product(24680);
-		p3.Product(88888);
+		p1.ProNum(12345);
+		p2.ProNum(13579);
+		p3.ProNum(22222);
+		p3.ProNum(24680);
+		p3.ProNum(88888);
 		
-		System.out.println("생산된 총 제품의 갯수 : " + count);
+		System.out.println("생산된 총 제품의 갯수 : " + Product.count);
 	}
 
 }

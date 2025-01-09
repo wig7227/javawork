@@ -1,7 +1,7 @@
 package _02_Car;
 
 public class Car {
-	String model;
+	public String model;
 	String company;
 	boolean power;
 	int speed;

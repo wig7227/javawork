@@ -6,7 +6,7 @@ public class Product {
 	static int count;
 	int proNum;
 	
-	void Product(int num){
+	void ProNum(int num){
 		System.out.println(num + "더조은" + ++count);
 	}
 }
