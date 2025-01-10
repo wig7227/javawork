@@ -1,6 +1,6 @@
-package _03_ex;
+package _02_abstractPhone;
 
-public class Phone {
+abstract public class Phone {
 	String model;
 	String color;
 	String message;
@@ -14,14 +14,14 @@ public class Phone {
 	void bell() {
 		System.out.println("따르릉");
 	}
-	boolean hang;
-	void hang() {
-		if(hang = !hang) {
+	//boolean hang;
+	abstract void hang();
+		/*if(hang = !hang) {
 			System.out.println("전화 받았습니다");
 		}
 		else
-			System.out.println("전화 끊습니다");
-	}
+			System.out.println("전화 끊습니다");*/
+	
 
 	
 	void sendVoice(String message) {

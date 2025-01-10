@@ -1,4 +1,4 @@
-package _02_polyBuyer;
+package _04_polyBuyer.ArrayList;
 
 public class Tv extends Product{
 	//생성자
