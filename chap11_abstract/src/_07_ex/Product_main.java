@@ -18,6 +18,7 @@ public class Product_main {
 		tv.volume(17);
 		
 		tv.channel(2);
+		System.out.println("aaaa : " + tv.channel(3));
 		
 		tv.ai();
 		tv.se("드라마 검색");

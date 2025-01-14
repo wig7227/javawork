@@ -17,13 +17,13 @@ public class Bank {
 	
 	public void printOut(int MoneyOut) throws UserException {
 		
-		bal -= MoneyOut;
-		
 		if(MoneyOut <= bal) {
-		System.out.println(MoneyOut + "원 출금 완료 했습니다");
+			bal -= MoneyOut;
+			System.out.println(MoneyOut + "원 출금 완료 했습니다");
 		}
-		else
+		else {
 			throw new UserException("잔고 부족 : " + (MoneyOut-bal) + "모자람");
+		}
 	}
 	
 	public int bal() {
