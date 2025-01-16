@@ -5,7 +5,7 @@ import java.time.LocalDate;
 public class T01_LocalDate {
 
 	public static void main(String[] args) {
-		LocalDate today = LocalDate.now();
+		LocalDate today = LocalDate.now();	//static으로 되어 있어서 객체생성 안함
 		System.out.println(today);
 		System.out.println(today.getYear() + "년");
 		System.out.println(today.getMonth());
