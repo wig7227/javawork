@@ -13,7 +13,7 @@ public class T01_calendar {
 		// 월은 0부터 시작. 그래서 항상 +1을 해줘야한다.
 		System.out.println("현재 월 : " + (today.get(Calendar.MONTH) + 1));
 		System.out.println("이달의 몇번째 주 : " + today.get(Calendar.WEEK_OF_MONTH));
-		System.out.println("올해의 몇번째 주 : " + today.get(Calendar.WEEK_OF_MONTH));
+		System.out.println("올해의 몇번째 주 : " + today.get(Calendar.WEEK_OF_YEAR));
 		System.out.println("---------------------------------------");
 		
 		// 일

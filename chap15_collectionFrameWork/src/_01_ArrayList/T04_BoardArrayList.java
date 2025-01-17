@@ -9,9 +9,9 @@ public class T04_BoardArrayList {
 		List<Board> list = new ArrayList<>();
 		
 		Board board1 = new Board();
-		board1.setSub("java");
-		board1.setWritter("이문열");
-		//board1.setContent("내용1");
+		board1.setSubject("java");
+		board1.setWriter("이문열");
+		board1.setContent("내용1");
 		
 		Board board2 = new Board("oracle", "오로라", "내용2");
 
@@ -26,9 +26,9 @@ public class T04_BoardArrayList {
 		
 		// 특정 인덱스의 객체 가져오기
 		Board boardRe = list.get(1);
-		System.out.println("책 제목 : " + boardRe.getSub());
-		System.out.println("글쓴이 : " + boardRe.getWritter());
-		//System.out.println("가격 : " + boardRe.getCon());
+		System.out.println("책 제목 : " + boardRe.getSubject());
+		System.out.println("글쓴이 : " + boardRe.getWriter());
+		System.out.println("가격 : " + boardRe.getContent());
 		System.out.println("---------------------------------------");
 		
 		for(int i=0; i<list.size(); i++) {
@@ -43,7 +43,5 @@ public class T04_BoardArrayList {
 		for(Board b : list) {
 			System.out.println(b);
 		}	
-		
 	}
-
 }
