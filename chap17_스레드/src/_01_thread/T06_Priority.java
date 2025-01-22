@@ -1,3 +1,4 @@
+
 package _01_thread;
 
 class Thread3 extends Thread {
