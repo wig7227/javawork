@@ -69,13 +69,13 @@ public class BufferStream {
 	public void fileRead() {
 		// 기반스트림 : FileWriter
 		// 보조스트림 : BufferedWriter -> 버퍼 공간을 제공해주는 보조스트림 (속도 향상)
-		/*try (BufferedReader br = new BufferedReader(new FileReader("c_buffer.txt"))){
+		try (BufferedReader br = new BufferedReader(new FileReader("c_buffer.txt"))){
 			String value = null;
-			while(value = br.readLine() != null) {
+			while((value = br.readLine()) != null) {
 				System.out.println(value);
 			}
 		} catch (IOException e) {
 			e.printStackTrace();
-		}*/
+		}
 	}
 }
